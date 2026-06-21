@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "بث مباشر",
+    "slug": "football-live-app",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#060C12"
+    },
+    "android": {
+      "package": "com.yourname.footballlive",
+      "adaptiveIcon": {
+        "backgroundColor": "#060C12"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.yourname.footballlive",
+      "supportsTablet": true
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-screen-orientation",
+        { "initialOrientation": "DEFAULT" }
+      ]
+    ],
+    "scheme": "footballlive"
+  }
+}
